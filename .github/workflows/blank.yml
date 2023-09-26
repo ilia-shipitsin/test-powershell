@@ -27,6 +27,11 @@ jobs:
 
       - name: Run a multi-line script
         run: |
+          $PSVersionTable
+        shell: powershell
+
+      - name: Run a multi-line script
+        run: |
           Write-Host '12345'
         shell: powershell
 
